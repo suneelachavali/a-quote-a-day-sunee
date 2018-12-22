@@ -2,8 +2,7 @@ var express = require('express');
 var app = express();
 
 app.get('/', function(request, response){
-    response.end('Hello Heroku!!');
-    /* response.sendFile('https://github.com/suneelachavali/a-quote-a-day-sunee/blob/master/index.html'); */
+    response.sendFile(__dirname+'/index.html');
 });
 
 var port = 8080;
