@@ -1,0 +1,14 @@
+{
+  "name": "a-quote-a-day",
+  "version": "1.0.0",
+  "description": "generate random quotes",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "suneela chavali",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
